@@ -1,4 +1,4 @@
-package hello.aop.aop.member;
+package hello.aop.member;
 
 public interface MemberService {
 
