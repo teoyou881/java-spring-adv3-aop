@@ -16,6 +16,12 @@ public class MemberServiceImpl implements MemberService {
     return "ok";
   }
 
+  @Override
+  @MethodAop("test value")
+  public String hello(Object param) {
+    return "ok";
+  }
+
   public String internal(String param) {
     return "ok";
   }
